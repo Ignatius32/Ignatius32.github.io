@@ -29,7 +29,7 @@
     <main class="container">
         <div class="title-with-button">
             <h1>B.7 Normas</h1>
-            <a href="/propuesta.pdf" class="btn-download" download>📄 Descargar Propuesta completa en PDF</a>
+            <a href="#" class="btn-download" data-pdf-link target="_blank" rel="noopener">📄 Ver Propuesta en texto</a>
         </div>
 
         <div class="content">
@@ -43,12 +43,16 @@
                 <li>Reglamento de Tesis de grado de la Carrera Licenciatura en Enfermería - Resolución CRUB CD GAB N° 020/2022.</li>
                 <li>Régimen Reválida Títulos Extranjeros - Ordenanza N° 052/90.</li>
                 <li>Reglamento de Concurso Regular para Docentes - Ordenanza N° 728/24.</li>
+                <li>Procedimiento Resumido para la Aplicación de la Ordenanza N° 728/2024 - Disp. Secretaría Académica UNCo N° 001/25</li>
                 <li>Reglamento de Llamado a Concurso de Docentes Interinos - Resoluciones CD CRUB N° 1320/22.</li>
                 <li>Régimen de Obligaciones Docentes - Ordenanza N° 492/91.</li>
                 <li>Sistema Único de Planificación y Evaluación de Actividades Académicas (Docencia) - Ordenanza N° 485/91</li>
+                <li>Tabla de Plazos Mínimos de conservación y guarda de documentación y expedientes de la Universidad Nacional del Comahue - Ordenanza N° 363/22</li>
+                <li>Procedimiento de digitalización de documentación administrativa - Disp. Secretaría General UNCo N° 007/23</li>
                 <li>Misión y Funciones de la Dirección de Administración Académica - Resolución N° 720/00.</li>
                 <li>Estructura orgánico-funcional de la Universidad Nacional del Comahue - Ordenanza N° 440/99</li>
                 <li>Nueva Estructura orgánico-funcional de la Universidad Nacional del Comahue - Aprobada en el Consejo Superior pendiente de firma.</li>
+                <li>Convenio Colectivo de Trabajo para el Sector No Docente de las Instituciones Universitarias Nacionales - Decreto 366/06</li>
             </ul>
         </div>
 
@@ -70,5 +74,12 @@
         <p>&copy; 2026 Plan Estratégico Administración Académica CRUB - Universidad Nacional del Comahue</p>
     </footer>
     <script src="menu.js"></script>
+    <script src="config.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const a = document.querySelector('[data-pdf-link]');
+            if (a && window.SITE_CONFIG?.pdfUrl) a.href = window.SITE_CONFIG.pdfUrl;
+        });
+    </script>
 </body>
 </html>

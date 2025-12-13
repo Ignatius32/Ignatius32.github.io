@@ -29,7 +29,7 @@
     <main class="container">
         <div class="title-with-button">
             <h1>B.8 Recursos Requeridos</h1>
-            <a href="/propuesta.pdf" class="btn-download" download>📄 Descargar Propuesta completa en PDF</a>
+            <a href="#" class="btn-download" data-pdf-link target="_blank" rel="noopener">📄 Ver Propuesta en texto</a>
         </div>
 
         <div class="content">
@@ -127,7 +127,7 @@
 
         <div class="title-with-button" style="margin-top: 3rem;">
             <h1>B.9 Espacio Físico</h1>
-            <a href="/propuesta.pdf" class="btn-download" download>📄 Descargar Propuesta completa en PDF</a>
+            <a href="#" class="btn-download" data-pdf-link target="_blank" rel="noopener">📄 Ver Propuesta en texto</a>
         </div>
 
         <div class="content">
@@ -152,5 +152,12 @@
         <p>&copy; 2026 Plan Estratégico Administración Académica CRUB - Universidad Nacional del Comahue</p>
     </footer>
     <script src="menu.js"></script>
+    <script src="config.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!window.SITE_CONFIG?.pdfUrl) return;
+            document.querySelectorAll('[data-pdf-link]').forEach(a => { a.href = window.SITE_CONFIG.pdfUrl; });
+        });
+    </script>
 </body>
 </html>

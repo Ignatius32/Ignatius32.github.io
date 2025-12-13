@@ -30,7 +30,7 @@
     <main class="container">
         <div class="title-with-button">
             <h1>B.10 Planificación</h1>
-            <a href="/propuesta.pdf" class="btn-download" download>📄 Descargar Propuesta completa en PDF</a>
+            <a href="#" class="btn-download" data-pdf-link target="_blank" rel="noopener">📄 Ver Propuesta en texto</a>
         </div>
 
         <p style="text-align: center; margin-bottom: 2rem; color: #6b7280; font-size: 1rem;">Haga clic en cualquier fila para ver detalles completos (metas, acciones e indicadores).</p>
@@ -87,141 +87,16 @@
         </div>
     </div>
 
+    <script src="config.js"></script>
+    <script src="planificacion.js"></script>
     <script>
-        // --- 1. DATOS (Fiel al JSON original) ---
-        const rawData = [
-            {
-                "id": "OG1",
-                "description": "Transformar la gestión de la administración académica del CRUB mediante la sistematización y la automatización de procedimientos para garantizar la calidad del servicio.",
-                "color": "#3b82f6", // Blue
-                "specific_objectives": [
-                    { 
-                        "id": "OE1", 
-                        "short_desc": "Equivalencias y reválidas", 
-                        "timeline": "2026-2027 (C1)", 
-                        "details": "Sistematizar la tramitación de solicitudes de equivalencias y reválidas de título.",
-                        "metas": "Lograr que el 100% de las solicitudes se gestionen y resuelvan a través de la plataforma.\n\nEliminar las consultas por correo electrónico de por parte de los solicitantes luego de iniciada la solicitud. (El inicio de la solicitud, que incluye el envío de la documentación requerida, se recibe por correo electrónico).",
-                        "acciones": "A1: Identificar los procedimientos existentes, analizar su funcionamiento y resultados.\n\nA2: Rediseñar el procedimiento de Equivalencias CRUB y el de Reválidas CRUB considerando su gestión integral: instructivo para solicitantes, inicio, incorporaciones, generación del dictamen, resoluciones, notificaciones y la compaginación del archivo final para SUDOCU.\n\nA3: Implementar los procedimientos en una plataforma informática.\n\nA4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados.",
-                        "indicadores": "I1: Tiempo promedio (en días) de tramitación.\n\nI2: Análisis de las consultas realizadas por correo electrónico o ventanilla."
-                    },
-                    { 
-                        "id": "OE2", 
-                        "short_desc": "Egresos y colaciones", 
-                        "timeline": "2026", 
-                        "details": "Sistematizar el procedimiento de egresos y colaciones en una plataforma informática que unifique la base de datos de estudiantes graduados/as, sistematice las convocatorias y la gestión administrativa.",
-                        "metas": "Digitalizar el 100% de los recibos y registro de graduados.\n\nDigitalizar la totalidad de las certificaciones internas (libre deuda Bienestar/Biblioteca).\n\nAutomatizar la totalidad de la redacción del guión del acto y las actas.\n\nAutomatizar la totalidad de las respuestas de consultas frecuentes.\n\nEliminar los errores de tipeo de los correos electrónicos en las convocatorias.",
-                        "acciones": "A1: Revisión del procedimiento.\n\nA2: Mejora del procedimiento y diseño de la plataforma informática.\n\nA3: Implementación de interfaz de automatización para el el inicio, seguimiento, control, generación de documentos y notificaciones relacionadas al procedimiento.\n\nA4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados.",
-                        "indicadores": "I1: Análisis cualicuantitativo de las consultas por correo electrónico."
-                    },
-                    { 
-                        "id": "OE3", 
-                        "short_desc": "TFC, prórrogas y tribunales", 
-                        "timeline": "2026", 
-                        "details": "Mejorar y sistematizar el procedimiento de solicitud de Inicio de Trabajo Final de Carrera, prórrogas y conformación de tribunales.",
-                        "metas": "Automatizar la totalidad de la documentación generada y las notificaciones relacionadas a las solicitudes.",
-                        "acciones": "A1: Relevar el procedimiento actual.\n\nA2: Diseñar e implementar una interfaz digital para la carga de solicitudes, la generación de la documentación y las notificaciones relacionadas.\n\nA3: Capacitar a Directores/as y Delegados/as Departamentales y al personal administrativo en el uso del nuevo sistema.\n\nA4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados.",
-                        "indicadores": "I1: Número de solicitudes gestionadas por el sistema.\n\nI2: Tiempo promedio (en días) entre el inicio de la solicitud hasta la notificación de la resolución."
-                    },
-                    { 
-                        "id": "OE4", 
-                        "short_desc": "Huayca Cátedras", 
-                        "timeline": "2026-2027", 
-                        "details": "Continuar con la implementación y uso de la interfaz actual para la entrega de programas, planificaciones e informes de cátedra (Huayca Cátedras).",
-                        "metas": "Alcanzar el 100% de entrega de Programas en Huayca Cátedras.\n\nIntegrar la entrega de Programas de Posgrado en su totalidad.\n\nIntegrar la entrega de Programas de Ingeniería en su totalidad.\n\nIntegrar la totalidad de la información de la Oferta de Optativas del Año Lectivo.",
-                        "acciones": "A1: Relevar el uso actual e identificar puntos de fricción de la plataforma.\n\nA2: Desarrollar e implementar mejoras en la interfaz basadas en la retroalimentación de los/as docentes.\n\nA3: Realizar instructivos y jornadas de capacitación en el uso de la plataforma.",
-                        "indicadores": "I1: Porcentaje de cátedras que cargan material en tiempo y forma a través de la plataforma.\n\nI2: Encuesta a docentes con retroalimentación y nivel de satisfacción con la herramienta."
-                    },
-                    { 
-                        "id": "OE5", 
-                        "short_desc": "Plataforma Lenga", 
-                        "timeline": "2026-2028", 
-                        "details": "Integrar la gestión de la agenda de actividades académicas y solicitudes internas en una plataforma única (Lenga).",
-                        "metas": "Implementar y migrar el 100% de la gestión de aulas, horarios y solicitudes internas relacionadas a Bedelía a la plataforma Lenga para 2027.\n\nCanalizar la totalidad de las solicitudes de asistencia informática a través de la plataforma Lenga.",
-                        "acciones": "A1: Definir los requerimientos funcionales.\n\nA2: Desarrollar los módulos de agenda, asignación de aulas, reasignaciones y sistema de tiketera.\n\nA3: Migrar la gestión de actividades académicas a la nueva plataforma, asegurando la integridad de los datos.\n\nA4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados.",
-                        "indicadores": "I1: Número de errores (superposición involuntaria de espacios) detectados luego de la implementación.\n\nI2: Tiempo de respuesta (en días) a las solicitudes realizadas."
-                    },
-                    { 
-                        "id": "OE6", 
-                        "short_desc": "Selecciones Docentes", 
-                        "timeline": "2026-2027", 
-                        "details": "Consolidar la implementación de la plataforma de Selecciones Docentes",
-                        "metas": "Redactar y aprobar el nuevo procedimiento en base a la nueva plataforma de selecciones docentes.\n\nIniciar el 100% de las selecciones interinas en la nueva plataforma.\n\nCompletar al menos 3 Concursos Regulares que han sido iniciados en la nueva plataforma.",
-                        "acciones": "A1: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados.\n\nA2: Crear las plantillas de documentos y notificaciones necesarias para las selecciones interinas.\n\nA3: Solicitar a la Secretaría Académica UNCo la modificación del procedimiento actual para permitir la firma electrónica de las Actas del Jurado a través de la plataforma.",
-                        "indicadores": "I1: Tiempo promedio de elaboración, firma y notificación de Actas y Resoluciones.\n\nI2: Tiempo promedio de carga de la documentación de los postulantes.\n\nI3: Encuesta a jurados sobre el uso de la plataforma."
-                    },
-                    { 
-                        "id": "OE7", 
-                        "short_desc": "Planificación de mejoras", 
-                        "timeline": "2028", 
-                        "details": "Establecer un mecanismo sistemático para identificar, priorizar y planificar el diseño de mejoras y automatizaciones de otros procedimientos del Área.", 
-                        "isCritical": true,
-                        "metas": "Identificar y formalizar la planificación del 100% de los procedimientos restantes de la Administración Académica CRUB que serán objeto de sistematización en la siguiente etapa (2029-2030) para fines de 2028.",
-                        "acciones": "A1: Mapear la totalidad de los procedimientos administrativos que no fueron intervenidos en esta primera etapa.\n\nA2: Diseñar y aplicar una matriz de priorización (basada en volumen, criticidad y horas de trabajo que liberaría).\n\nA3: Elaborar el plan de trabajo para la siguiente etapa de automatización (2029-2030).",
-                        "indicadores": "I1: Número de procedimientos identificados en un 'Registro de Procedimientos Pendientes de Mejora'.\n\nI2: Porcentaje de procedimientos con planificación formalizada para la siguiente etapa."
-                    }
-                ]
-            },
-            {
-                "id": "OG2",
-                "description": "Garantizar la gestión integral del acervo documental y normativo del área, facilitando su acceso, la trazabilidad de la información y la transparencia institucional.",
-                "color": "#10b981", // Green
-                "specific_objectives": [
-                    { 
-                        "id": "OE8", 
-                        "short_desc": "Archivo digital", 
-                        "timeline": "2026-2028", 
-                        "details": "Digitalizar y estructurar el archivo en papel del área, generando un archivo digital organizado y consultable.",
-                        "metas": "Digitalizar e indexar el 100% de legajos de Estudiantes CRUB.\n\nDigitalizar e indexar el 100% de legajos de Docentes CRUB en coordinación con el área de Administración CRUB (RRHH).",
-                        "acciones": "A1: Relevar el volumen y estado del archivo físico a digitalizar.\n\nA2: Definir el plan de expurgo, prioridades de escaneo e metodología de indexación.\n\nA3: Ejecutar el plan de digitalización y carga en un repositorio seguro.",
-                        "indicadores": "I1: Porcentaje de avance del archivo histórico digitalizado.\n\nI2: Tiempo promedio (en minutos) de búsqueda y visualización de un documento."
-                    },
-                    { 
-                        "id": "OE9", 
-                        "short_desc": "Digesto normativo", 
-                        "timeline": "2026 (C2) - 2027", 
-                        "details": "Desarrollar un índice temático y un digesto normativo navegable que complemente el repositorio institucional (RANQUEL), facilitando la consulta rápida de la normativa académica clasificada por interés de los usuarios (carreras, tipo de solicitud, etc.).",
-                        "metas": "Identificar la totalidad de la normativa vigente que debe ser indexada.",
-                        "acciones": "A1: Recopilar, clasificar y verificar la vigencia de toda la normativa académica aplicable.\n\nA2: Diseñar y categorizar la normativa por ejes temáticos (carreras, egresos, equivalencias, posgrado, etc).\n\nA3: Implementar una interfaz de búsqueda y gestión de digesto con funcionalidad de filtrado temático.\n\nA4: Establecer un protocolo de actualización permanente del índice temático.\n\nA5: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados.",
-                        "indicadores": "I1: Porcentaje de normas cargadas and accesibles en el índice temático.\n\nI2: Número de consultas mensuales al índice/digesto temático."
-                    }
-                ]
-            },
-            {
-                "id": "OG3",
-                "description": "Liderar la gestión del cambio, el desarrollo profesional y la calidad del trabajo del Personal Nodocente, asegurando la sostenibilidad y transferibilidad de los procedimientos y sistemas en el contexto de la reorganización funcional.",
-                "color": "#f97316", // Orange (Changed from Violet)
-                "specific_objectives": [
-                    { 
-                        "id": "OE10", 
-                        "short_desc": "Capacitación continua", 
-                        "timeline": "2026-2028", 
-                        "details": "Implementar una dinámica de trabajo de mejora continua y capacitación permanente para el Personal Nodocente.",
-                        "metas": "Lograr que el 100% del personal del área complete las capacitaciones en las nuevas herramientas y metodologías de trabajo.",
-                        "acciones": "A1: Diseñar un plan de capacitación anual en las nuevas plataformas y en herramientas de automatización de tareas.\n\nA2: Ejecutar talleres prácticos de uso de las herramientas implementadas.\n\nA3: Establecer reuniones de equipo para compartir conocimientos, crear soluciones y socializar experiencias.",
-                        "indicadores": "I1: Porcentaje de personal capacitado en las nuevas herramientas.\n\nI2: Número de propuestas de mejora implementadas (surgidas del propio equipo)."
-                    },
-                    { 
-                        "id": "OE11", 
-                        "short_desc": "Documentación y socialización", 
-                        "timeline": "2026 (C2) - 2028", 
-                        "details": "Documentar y socializar los nuevos procedimientos y sistemas digitales, asegurando su transferibilidad ante la eventual aplicación de la nueva estructura orgánico-funcional.",
-                        "metas": "Lograr que el 100% de los nuevos procedimientos y plataformas implementadas cuenten con su manual de uso, instructivos y protocolo de transferencia documentados para fines de 2028.",
-                        "acciones": "A1: Redactar manuales de uso y diagramas de flujo para los sistemas y procedimientos renovados.\n\nA2: Definir el protocolo para la transferencia de la gestión de los sistemas digitales y los archivos digitalizados.\n\nA3: Socializar las experiencias y metodologías de trabajo implementadas con otras Áreas CRUB, UNCo y el Sistema Universitario.",
-                        "indicadores": "I1: Número de manuales y protocolos de transferencia formalmente aprobados.\n\nI2: Número de presentaciones o instancias de socialización de la metodología de trabajo a otras áreas CRUB y UAs."
-                    },
-                    { 
-                        "id": "OE12", 
-                        "short_desc": "Redefinición de perfiles", 
-                        "timeline": "2028", 
-                        "details": "Redefinir los perfiles y tareas del Personal Nodocente en función de los nuevos procesos automatizados.", 
-                        "isCritical": true,
-                        "metas": "Lograr la redefinición del 100% de los perfiles de puesto del área, migrando de tareas operativas a tareas de control, auditoría, interpretación técnico-administrativa y atención especializada.",
-                        "acciones": "A1: Mapear las tareas actuales y cuantificar las horas que serán automatizadas por los nuevos sistemas.\n\nA2: Definir (en conjunto con el personal) las nuevas responsabilidades estratégicas (control, verificación de documentación, atención de calidad, interpretación normativa).\n\nA3: Elaborar y formalizar los nuevos perfiles de puesto.",
-                        "indicadores": "I1: Porcentaje de perfiles de puesto redefinidos.\n\nI2: Número de horas liberadas de tareas repetitivas y reasignadas a tareas de mayor valor agregado."
-                    }
-                ]
-            }
-        ];
+        // --- 1. DATOS (Desde planificacion.json) ---
+        let rawData = [];
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const a = document.querySelector('[data-pdf-link]');
+            if (a && window.SITE_CONFIG?.pdfUrl) a.href = window.SITE_CONFIG.pdfUrl;
+        });
 
         // --- 2. CONFIGURACIÓN DEL CANVAS ---
         // Dimensiones
@@ -256,9 +131,10 @@
                 ogDescription: ogData.description,
                 color: ogData.color
             });
-            // Insertar fila de timeline después de cada OG
+            // Insertar fila de años (sin etiquetas de C1/C2)
             flatData.push({
                 type: 'timeline-header',
+                kind: 'years-only',
                 color: ogData.color
             });
             // Insertar objetivos específicos (tareas)
@@ -280,8 +156,13 @@
             });
 
             // Calcular tamaño total
+            // Nota: la fila de años es más baja que una fila normal
             const totalWidth = CONFIG.sidebarWidth + (timeCols.length * CONFIG.colWidth);
-            const totalHeight = (flatData.length * CONFIG.rowHeight);
+            const yearsHeaderH = 28;
+            const totalHeight = flatData.reduce((sum, row) => {
+                if (row.type === 'timeline-header') return sum + yearsHeaderH;
+                return sum + CONFIG.rowHeight;
+            }, 0);
 
             // Ajustar resolución para nitidez (HiDPI)
             const dpr = window.devicePixelRatio || 1;
@@ -298,34 +179,37 @@
             return { canvas, ctx, flatData, totalWidth, totalHeight, activeBars, hoveredRow };
         }
 
-        // Initialize all three canvases
-        const gantt1 = createGanttForOG(rawData[0], 'ganttCanvas1');
-        const gantt2 = createGanttForOG(rawData[1], 'ganttCanvas2');
-        const gantt3 = createGanttForOG(rawData[2], 'ganttCanvas3');
-
         // --- 3. FUNCIONES DE DIBUJO ---
 
         function parseTimeline(timelineStr) {
-            // Mapeo simple basado en el string
-            if (timelineStr === "2026") return { start: 0, span: 2 }; 
-            if (timelineStr === "2026-2027 (C1)") return { start: 0, span: 3 }; 
-            
-            // New Case for Digesto Normativo (Starts C2 2026, Ends 2027)
-            // 0: 26C1, 1: 26C2, 2: 27C1, 3: 27C2
-            if (timelineStr === "2026 (C2) - 2027") return { start: 1, span: 3 };
+            const s = String(timelineStr || '').trim();
 
-            // New Case for Documentación y Manuales (Starts C2 2026, Ends 2028)
-            if (timelineStr === "2026 (C2) - 2028") return { start: 1, span: 5 };
+            // Normalización rápida para strings estilo JSON nuevo
+            // Ej: "Inicia en 2028" => tratar como 2028
+            if (/^inicia\s+en\s+2028/i.test(s)) return { start: 4, span: 2 };
 
-            // New Case for Planificación Futura (Starts C2 2027, Ends 2028)
-            // 0: 26C1 ... 3: 27C2
-            if (timelineStr === "2027 (C2) - 2028") return { start: 3, span: 3 };
+            // Casos soportados (históricos)
+            if (s === "2026") return { start: 0, span: 2 };
+            if (s === "2026-2027 (C1)") return { start: 0, span: 3 };
+            if (s === "2026 (C2) - 2027") return { start: 1, span: 3 };
+            if (s === "2026 (C2) - 2028") return { start: 1, span: 5 };
+            if (s === "2027 (C2) - 2028") return { start: 3, span: 3 };
+            if (s === "2026-2027") return { start: 0, span: 4 };
+            if (s === "2026-2028") return { start: 0, span: 6 };
+            if (s === "2027-2028") return { start: 2, span: 4 };
+            if (s === "2028") return { start: 4, span: 2 };
 
-            if (timelineStr === "2026-2027") return { start: 0, span: 4 };
-            if (timelineStr === "2026-2028") return { start: 0, span: 6 };
-            if (timelineStr === "2027-2028") return { start: 2, span: 4 };
-            if (timelineStr === "2028") return { start: 4, span: 2 }; 
-            return { start: 0, span: 1 }; // Default fallback
+            // Para inputs como "2026-2027" o "2026-2028" sin paréntesis
+            const m = s.match(/^(\d{4})\s*[-–]\s*(\d{4})$/);
+            if (m) {
+                const startYear = Number(m[1]);
+                const endYear = Number(m[2]);
+                if (startYear === 2026 && endYear === 2027) return { start: 0, span: 4 };
+                if (startYear === 2026 && endYear === 2028) return { start: 0, span: 6 };
+                if (startYear === 2027 && endYear === 2028) return { start: 2, span: 4 };
+            }
+
+            return { start: 0, span: 1 };
         }
 
         function draw(ganttObj, hoveredIndex = null) {
@@ -381,39 +265,33 @@
                     });
 
                 } else if (item.type === 'timeline-header') {
-                    // Fila de timeline (años y cuatrimestres)
+                    // Fila de timeline (solo años)
+                    const headerH = 28;
                     ctx.fillStyle = "#f3f4f6";
-                    ctx.fillRect(0, currentY, totalWidth, CONFIG.rowHeight);
-                    ctx.fillStyle = "#1f2937";
+                    ctx.fillRect(0, currentY, totalWidth, headerH);
+
+                    // Fondo del sidebar en header
+                    ctx.fillStyle = "#f3f4f6";
+                    ctx.fillRect(0, currentY, CONFIG.sidebarWidth, headerH);
+
                     ctx.textAlign = "center";
                     ctx.textBaseline = "middle";
+                    ctx.font = "bold 14px Segoe UI";
 
-                    const timelineY = currentY + (CONFIG.rowHeight / 2);
-
-                    // Años (dibujar encima)
-                    ctx.font = "bold 15px Segoe UI";
                     let yearX = CONFIG.sidebarWidth;
                     ["2026", "2027", "2028"].forEach(year => {
                         ctx.fillStyle = "#e5e7eb";
-                        ctx.fillRect(yearX, currentY, CONFIG.colWidth * 2, CONFIG.rowHeight / 2);
+                        ctx.fillRect(yearX, currentY, CONFIG.colWidth * 2, headerH);
                         ctx.strokeStyle = "#d1d5db";
-                        ctx.strokeRect(yearX, currentY, CONFIG.colWidth * 2, CONFIG.rowHeight / 2);
+                        ctx.strokeRect(yearX, currentY, CONFIG.colWidth * 2, headerH);
                         ctx.fillStyle = "#374151";
-                        ctx.fillText(year, yearX + CONFIG.colWidth, currentY + (CONFIG.rowHeight / 4));
+                        ctx.fillText(year, yearX + CONFIG.colWidth, currentY + (headerH / 2));
                         yearX += CONFIG.colWidth * 2;
                     });
 
-                    // Cuatrimestres (dibujar debajo)
-                    ctx.font = "14px Segoe UI";
-                    timeCols.forEach((col, i) => {
-                        const x = CONFIG.sidebarWidth + (i * CONFIG.colWidth);
-                        ctx.fillStyle = "#f9fafb";
-                        ctx.fillRect(x, currentY + (CONFIG.rowHeight / 2), CONFIG.colWidth, CONFIG.rowHeight / 2);
-                        ctx.strokeStyle = "#d1d5db";
-                        ctx.strokeRect(x, currentY + (CONFIG.rowHeight / 2), CONFIG.colWidth, CONFIG.rowHeight / 2);
-                        ctx.fillStyle = "#6b7280";
-                        ctx.fillText(col.label, x + (CONFIG.colWidth / 2), currentY + (CONFIG.rowHeight * 3 / 4));
-                    });
+                    // Avanzar Y manualmente para esta fila compacta
+                    currentY += headerH;
+                    return;
 
                 } else if (item.type === 'task') {
                     // Fila de Tarea (OE)
@@ -427,15 +305,64 @@
                     
                     const centerY = currentY + (CONFIG.rowHeight / 2);
 
-                    // Texto Sidebar
+                    // Texto Sidebar (ID + título en la misma línea)
                     ctx.textAlign = "left"; // Reset text alignment
                     ctx.textBaseline = "alphabetic"; // Reset baseline
-                    ctx.fillStyle = "#111827";
+                    const textX = 20;
+                    const maxTextWidth = CONFIG.sidebarWidth - 40; // padding left+right
+                    const lineHeight = 16;
+                    const maxLines = 2;
+
+                    const idText = String(item.id || '').trim();
+                    const descText = String(item.desc || '').trim();
+
                     ctx.font = "bold 14px Segoe UI";
-                    ctx.fillText(item.id, 20, centerY - 7);
+                    ctx.fillStyle = "#111827";
+                    const idWidth = ctx.measureText(idText).width;
+
                     ctx.font = "14px Segoe UI";
                     ctx.fillStyle = "#4b5563";
-                    ctx.fillText(item.desc, 20, centerY + 10);
+                    const space = idText && descText ? " " : "";
+                    const firstLineAvail = Math.max(0, maxTextWidth - (idWidth + (space ? ctx.measureText(space).width : 0)));
+
+                    // Construir líneas, reservando espacio en la primera para el ID
+                    const fullLines = getLines(ctx, descText, maxTextWidth);
+                    const lines = [];
+                    if (fullLines.length > 0) {
+                        let first = fullLines[0];
+                        if (ctx.measureText(first).width > firstLineAvail) {
+                            first = ellipsize(ctx, first, firstLineAvail);
+                        }
+                        lines.push(first);
+                        for (let i = 1; i < fullLines.length && lines.length < maxLines; i++) {
+                            lines.push(fullLines[i]);
+                        }
+                    }
+                    if (fullLines.length > maxLines && lines.length > 0) {
+                        lines[maxLines - 1] = ellipsize(ctx, lines[maxLines - 1], maxTextWidth);
+                    }
+
+                    const usedLineCount = Math.max(1, lines.length);
+                    const startY = centerY + 6 - ((usedLineCount - 1) * lineHeight) / 2;
+
+                    // Render: primer renglón con ID + descripción al mismo nivel
+                    const y0 = startY;
+                    let firstLine = (lines[0] ?? "").trim();
+                    // ID
+                    ctx.font = "bold 14px Segoe UI";
+                    ctx.fillStyle = "#111827";
+                    if (idText) ctx.fillText(idText + (firstLine ? "." : ""), textX, y0);
+                    const renderedId = idText ? (idText + (firstLine ? "." : "")) : "";
+                    const renderedIdWidth = renderedId ? ctx.measureText(renderedId + (firstLine ? " " : "")).width : 0;
+                    // Descripción
+                    ctx.font = "14px Segoe UI";
+                    ctx.fillStyle = "#4b5563";
+                    if (firstLine) ctx.fillText(firstLine, textX + renderedIdWidth, y0);
+
+                    // Resto de líneas (si hay)
+                    for (let i = 1; i < lines.length; i++) {
+                        ctx.fillText(lines[i], textX, y0 + i * lineHeight);
+                    }
 
                     // Dibujar Barra Gantt
                     const timeData = parseTimeline(item.timeline);
@@ -609,6 +536,22 @@
             return lines;
         }
 
+        function ellipsize(ctx, text, maxWidth) {
+            const s = String(text || '').trim();
+            if (ctx.measureText(s).width <= maxWidth) return s;
+            const ell = '…';
+            let lo = 0;
+            let hi = s.length;
+            while (lo < hi) {
+                const mid = Math.ceil((lo + hi) / 2);
+                const candidate = s.slice(0, mid).trimEnd() + ell;
+                if (ctx.measureText(candidate).width <= maxWidth) lo = mid;
+                else hi = mid - 1;
+            }
+            const out = s.slice(0, lo).trimEnd();
+            return (out ? out : s.slice(0, 1)) + ell;
+        }
+
         // Helper: Convertir Hex a RGBA
         function hexToRgba(hex, alpha) {
             var r = parseInt(hex.slice(1, 3), 16),
@@ -617,15 +560,31 @@
             return `rgba(${r}, ${g}, ${b}, ${alpha})`;
         }
 
-        // Inicializar los tres gráficos
-        draw(gantt1);
-        draw(gantt2);
-        draw(gantt3);
-        
-        // Attach event handlers
-        attachHandlers(gantt1);
-        attachHandlers(gantt2);
-        attachHandlers(gantt3);
+        async function init() {
+            rawData = await getNormalizedPlanData();
+
+            const gantt1 = createGanttForOG(rawData[0], 'ganttCanvas1');
+            const gantt2 = createGanttForOG(rawData[1], 'ganttCanvas2');
+            const gantt3 = createGanttForOG(rawData[2], 'ganttCanvas3');
+
+            draw(gantt1);
+            draw(gantt2);
+            draw(gantt3);
+
+            attachHandlers(gantt1);
+            attachHandlers(gantt2);
+            attachHandlers(gantt3);
+        }
+
+        init().catch(err => {
+            console.error(err);
+            const msg = document.createElement('p');
+            msg.style.textAlign = 'center';
+            msg.style.color = '#b91c1c';
+            msg.style.marginTop = '1rem';
+            msg.textContent = 'Error: no se pudo cargar planificacion.json para el cronograma.';
+            document.querySelector('main.container')?.appendChild(msg);
+        });
 
     </script>
 

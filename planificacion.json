@@ -1,0 +1,255 @@
+{
+  "plan_estrategico_crub": [
+    {
+      "objetivo_general": "OG1: Transformar la gestión de la administración académica del CRUB mediante la sistematización y la automatización de procedimientos para garantizar la calidad del servicio.",
+      "objetivos_especificos": [
+        {
+          "id": "OE1",
+          "objetivo_especifico": "Sistematizar la tramitación de solicitudes de equivalencias y reválidas de título.",
+          "metas": [
+            "Lograr que el 100% de las solicitudes se gestionen y resuelvan a través de la plataforma.",
+            "Eliminar las consultas por correo electrónico de por parte de los solicitantes luego de iniciada la solicitud. (El inicio de la solicitud, que incluye el envío de la documentación requerida, se recibe por correo electrónico)."
+          ],
+          "acciones": [
+            "A1: Identificar los procedimientos existentes, analizar su funcionamiento y resultados.",
+            "A2: Rediseñar el procedimiento de Equivalencias CRUB y el de Reválidas CRUB considerando su gestión integral: instructivo para solicitantes, inicio, gestión administrativa, generación del dictamen, resoluciones, notificaciones y la compaginación del archivo final para SUDOCU.",
+            "A3: Implementar los procedimientos en una plataforma informática.",
+            "A4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados."
+          ],
+          "plazo_ejecucion": "2026-2027",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Tiempo promedio (en días) de tramitación.",
+            "I2: Análisis de las consultas realizadas por correo electrónico o ventanilla."
+          ]
+        },
+        {
+          "id": "OE2",
+          "objetivo_especifico": "Sistematizar el procedimiento de egresos y colaciones en una plataforma informática que sistematice las convocatorias, la gestión administrativa y la base de datos de estudiantes graduados/as.",
+          "metas": [
+            "Digitalizar el 100% de los recibos y registro de graduados.",
+            "Digitalizar la totalidad de las certificaciones internas (libre deuda Bienestar y Biblioteca)",
+            "Automatizar la totalidad de la redacción del guión del acto y las actas.",
+            "Automatizar la totalidad de las respuestas de consultas frecuentes.",
+            "Eliminar los errores de tipeo de los correos electrónicos en las convocatorias."
+          ],
+          "acciones": [
+            "A1: Revisión del procedimiento.",
+            "A2: Mejora del procedimiento y diseño de la plataforma informática.",
+            "A3: Implementación de interfaz de automatización para el el inicio, seguimiento, control, generación de documentos y notificaciones relacionadas al procedimiento.",
+            "A4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados."
+          ],
+          "plazo_ejecucion": "2026-2027",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Análisis cualicuantitativo de las consultas por correo electrónico."
+          ]
+        },
+        {
+          "id": "OE3",
+          "objetivo_especifico": "Mejorar y sistematizar el procedimiento de solicitud de Inicio de Trabajo Final de Carrera, sus Prórrogas y Aprobación del Tribunal Evaluador.",
+          "metas": [
+            "Automatizar la totalidad de la documentación generada y las notificaciones relacionadas a las solicitudes.",
+            "Agilizar la gestión administrativa del tŕamite en el Consejo Directivo."
+          ],
+          "acciones": [
+            "A1: Relevar el procedimiento actual.",
+            "A2: Diseñar e implementar una interfaz digital para la carga de solicitudes por parte del Departamento Académico, la generación de la documentación, la presentación en el CD cuando corresponda y las notificaciones relacionadas.",
+            "A3: Capacitar a Directores/as y Delegados/as Departamentales y al personal administrativo en el uso del nuevo sistema.",
+            "A4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados."
+          ],
+          "plazo_ejecucion": "2026-2027",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Número de solicitudes gestionadas por el sistema.",
+            "I2: Tiempo promedio (en días) entre el inicio de la solicitud hasta la notificación de la resolución."
+          ]
+        },
+        {
+          "id": "OE4",
+          "objetivo_especifico": "Continuar con la implementación y uso de la interfaz actual para la entrega de programas, planificaciones e informes de cátedra (Huayca Cátedras).",
+          "metas": [
+            "Alcanzar el 100% de entrega de Programas en Huayca Cátedras.",
+            "Integrar la entrega de Programas de Posgrado en su totalidad.",
+            "Integrar la entrega de Programas de Ingeniería en su totalidad.",
+            "Integrar la totalidad de la información de la Oferta de Optativas del Año Lectivo."
+          ],
+          "acciones": [
+            "A1: Relevar el uso actual e identificar puntos de fricción de la plataforma.",
+            "A2: Desarrollar e implementar mejoras en la interfaz basadas en la retroalimentación de los/as docentes.",
+            "A3: Realizar instructivos y jornadas de capacitación en el uso de la plataforma."
+          ],
+          "plazo_ejecucion": "2026-2027",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Porcentaje de cátedras que cargan material en tiempo y forma a través de la plataforma.",
+            "I2: Encuesta a docentes con retroalimentación y nivel de satisfacción con la herramienta."
+          ]
+        },
+        {
+          "id": "OE5",
+          "objetivo_especifico": "Integrar la gestión de la agenda de actividades académicas y solicitudes internas en una plataforma única (Lenga).",
+          "metas": [
+            "Implementar y migrar el 100% de la gestión de aulas, horarios y solicitudes internas relacionadas a Bedelía a la plataforma Lenga para 2027.",
+            "Canalizar la totalidad de las solicitudes de asistencia informática a través de la plataforma Lenga."
+          ],
+          "acciones": [
+            "A1: Definir los requerimientos funcionales.",
+            "A2: Desarrollar los módulos de agenda, asignación de aulas, reasignaciones y sistema de tiketera.",
+            "A3: Migrar la gestión de actividades académicas a la nueva plataforma, asegurando la integridad de los datos.",
+            "A4: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados."
+          ],
+          "plazo_ejecucion": "2026-2028",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Número de errores (superposición de involuntaria de espacios) detectados luego de la implementación.",
+            "I2: Tiempo de respuesta (en días) a las solicitudes realizadas."
+          ]
+        },
+        {
+          "id": "OE6",
+          "objetivo_especifico": "Consolidar la implementación de la plataforma de Selecciones Docentes.",
+          "metas": [
+            "Redactar y aprobar el nuevo procedimiento en base a la nueva plataforma de selecciones docentes.",
+            "Iniciar el 100% de las selecciones interinas en la nueva plataforma.",
+            "Completar al menos 3 Concursos Regulares que han sido iniciados en la nueva plataforma."
+          ],
+          "acciones": [
+            "A1: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados.",
+            "A2: Crear las plantillas de documentos y notificaciones necesarias para las selecciones interinas.",
+            "A3: Solicitar a la Secretaría Académica UNCo la modificación del procedimiento actual para permitir la firma electrónica de las Actas del Jurado a través de la plataforma."
+          ],
+          "plazo_ejecucion": "2026-2027",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Tiempo promedio de elaboración, firma y notificación de Actas y Resoluciones.",
+            "I2: TIempo promedio de carga de la documentación de los postulantes.",
+            "I3: Encuesta a jurados sobe el uso de la plataforma."
+          ]
+        },
+        {
+          "id": "OE7",
+          "objetivo_especifico": "Establecer un mecanismo sistemático para identificar, priorizar y planificar el diseño de mejoras y automatizaciones de otros procedimientos del Área.",
+          "metas": [
+            "Identificar y formalizar la planificación del 100% de los procedimientos restantes de la Administración Académica CRUB que serán objeto de sistematización en la siguiente etapa (2029-2030) para fines de 2028."
+          ],
+          "acciones": [
+            "A1: Mapear la totalidad de los procedimientos administrativos que no fueron intervenidos en esta primera etapa.",
+            "A2: Diseñar e aplicar una matriz de priorización (basada en volumen, criticidad y horas de trabajo que liberaría).",
+            "A3: Elaborar el plan de trabajo para la siguiente etapa de automatización (2029-2030)."
+          ],
+          "plazo_ejecucion": "2028",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Número de procedimientos identificados en un \"Registro de Procedimientos Pendientes de Mejora\".",
+            "I2: Porcentaje de procedimientos con planificación formalizada para la siguiente etapa."
+          ]
+        }
+      ]
+    },
+    {
+      "objetivo_general": "OG2: Garantizar la gestión integral del acervo documental y normativo del área, facilitando su acceso, la trazabilidad de la información y la transparencia institucional.",
+      "objetivos_especificos": [
+        {
+          "id": "OE8",
+          "objetivo_especifico": "Digitalizar y estructurar el archivo en papel del área.",
+          "metas": [
+            "Digitalizar e indexar el 100% de legajos de Estudiantes CRUB.",
+            "Digitalizar e indexar el 100% de legajos de Docentes CRUB en coordinación con el área de Administración CRUB (RRHH).",
+            "Realizar un expurgo y digitalización correspondiente del resto de la documentación en papel, incluyendo los Programas, Informes y Planificaciones de Cátedra."
+          ],
+          "acciones": [
+            "A1: Relevar el volumen y estado del archivo físico a digitalizar.",
+            "A2: Definir el plan de expurgo, prioridades de escaneo y metodología de indexación.",
+            "A3: Ejecutar el plan de digitalización y carga en un repositorio seguro."
+          ],
+          "plazo_ejecucion": "2026-2028",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Porcentaje de avance del archivo digitalizado.",
+            "I2: Tiempo promedio (en minutos) de busqueda y visualización de un documento."
+          ]
+        },
+        {
+          "id": "OE9",
+          "objetivo_especifico": "Desarrollar un índice temático y un digesto normativo navegable que complemente el repositorio institucional (RANQUEL) facilitando la consulta rápida de la normativa académica clasificada por interés de los usuarios (carreras, tipo de solicitud, etc.).",
+          "metas": [
+            "Identificar e indexar la totalidad de la normativa vigente pertinente."
+          ],
+          "acciones": [
+            "A1: Recopilar, clasificar y verificar la vigencia de toda la normativa académica aplicable.",
+            "A2: Diseñar y categorizar la normativa por ejes temáticos (carreras, egresos, equivalencias, etc).",
+            "A3: Implementar una interfaz de búsqueda y gestión de digesto con funcionalidad de filtrado temático.",
+            "A4: Establecer un protocolo de actualización permanente del índice.",
+            "A5: Documentar el flujo de trabajo del nuevo procedimiento y elaborar el manual de uso e instructivos relacionados."
+          ],
+          "plazo_ejecucion": "2026-2027",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Cantidad de normas cargadas y accesibles en el índice temático.",
+            "I2: Número de consultas mensuales al índice/digesto temático."
+          ]
+        }
+      ]
+    },
+    {
+      "objetivo_general": "OG3: Liderar la gestión del cambio, el desarrollo profesional y la calidad del trabajo del Personal Nodocente, asegurando la sostenibilidad y transferibilidad de los procedimientos y sistemas en el contexto de la reorganización funcional.",
+      "objetivos_especificos": [
+        {
+          "id": "OE10",
+          "objetivo_especifico": "Implementar una dinámica de trabajo de mejora continua y capacitación permanente.",
+          "metas": [
+            "Lograr que el 100% del personal del área complete las capacitaciones herramientas de automatización y metodologías de trabajo."
+          ],
+          "acciones": [
+            "A1: Diseñar un plan de capacitación anual en las nuevas plataformas y en herramientas de automatización de tareas.",
+            "A2: Ejecutar talleres prácticos de uso de las herramientas.",
+            "A3: Establecer reuniones de equipo para compartir conocimientos, crear soluciones y socializar experiencias."
+          ],
+          "plazo_ejecucion": "2026-2028",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Porcentaje de personal del Área capacitado en las nuevas herramientas.",
+            "I2: Número de propuestas de mejora implementadas (surgidas del propio equipo)."
+          ]
+        },
+        {
+          "id": "OE11",
+          "objetivo_especifico": "Documentar y socializar los nuevos procedimientos y sistemas digitales, asegurando su transferibilidad ante la eventual aplicación de la nueva estructura orgánico-funcional.",
+          "metas": [
+            "Lograr que el 100% de los nuevos procedimientos y plataformas implementadas cuenten con su manual de uso, instructivos y protocolo de transferencia documentados para fines de 2028."
+          ],
+          "acciones": [
+            "A1: Redactar manuales de uso y diagramas de flujo para los sistemas y procedimientos renovados",
+            "A2: Definir el protocolo para la transferencia de la gestión de los sistemas digitales y los archivos digitalizados.",
+            "A3: Socializar las experiencias y metodologías de trabajo implementadas con otras Áreas CRUB y UNCo."
+          ],
+          "plazo_ejecucion": "2027-2028",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Número de manuales y protocolos de transferencia formalmente aprobados.",
+            "I2: Número de presentaciones o instancias de socialización de la metodología de trabajo a otras áreas CRUB y UAs."
+          ]
+        },
+        {
+          "id": "OE12",
+          "objetivo_especifico": "Redefinir los perfiles y tareas del Personal Nodocente en función de los nuevos procesos automatizados.",
+          "metas": [
+            "Lograr la redefinición del 100% de los perfiles de puesto del área, migrando de tareas operativas a tareas de control, auditoría, interpretación técnico-administrativa y atención especializada."
+          ],
+          "acciones": [
+            "A1: Mapear las tareas actuales y cuantificar las horas que serán automatizadas por los nuevos sistemas.",
+            "A2: Definir (en conjunto con el personal) las nuevas responsabilidades estratégicas (control, verificación de documentación, atención de calidad, interpretación normativa).",
+            "A3: Elaborar y formalizar los nuevos perfiles de puesto."
+          ],
+          "plazo_ejecucion": "Inicia en 2028",
+          "responsable": "Dirección de Administración Académica",
+          "indicadores": [
+            "I1: Porcentaje de perfiles de puesto redefinidos.",
+            "I2: Número de horas liberadas de tareas repetitivas y reasignadas a tareas de mayor valor agregado."
+          ]
+        }
+      ]
+    }
+  ]
+}

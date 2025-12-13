@@ -1,0 +1,93 @@
+CARGO A POSTULAR: Dirección de Administración Académica CRUB-UNCo.
+
+APELLIDO Y NOMBRES: Basti Ignacio
+DNI: 37.099.475
+CUIL/CUIT: 20-37099475-8
+TELÉFONO: 1133577997
+CORREO ELECTRÓNICO: ignaciobasti@gmail.com
+
+B.1 NOMBRE DEL PLAN DE TRABAJO: “Plan de desarrollo de la Administración Académica del Centro Regional Universitario Bariloche (CRUB) de la Universidad Nacional del Comahue (UNCo). Periodo: 2026-2028”.
+
+B.2 DESCRIPCIÓN DEL PROYECTO:
+
+Este proyecto propone un plan para mejorar y estructurar la Administración Académica del CRUB.  En este sentido, se planifica una metodología de trabajo sistematizada y diseñada para transformar los procedimientos  del área y mejorar la calidad de su servicio.
+
+Durante la implementación de esta propuesta se analizarán y modificarán las formas y técnicas con las que los procedimientos son ejecutados actualmente con el fin de optimizar los flujos de trabajo, eliminar redundancias y reducir los tiempos de respuesta.
+
+Se desarrollarán sistemas digitales de trabajo diseñados para gestionar los procedimientos, siempre en sincronía con los sistemas institucionales existentes. Esto asegurará la trazabilidad de la información, la automatización de tareas manuales y facilitará el acceso a la información por parte de los diferentes usuarios.
+
+La implementación de diferentes técnicas de automatización disponibles permitirá rediseñar la estructura de tareas a cargo de las/os trabajadoras/es. Es decir, la transferencia de operaciones repetitivas y simples a sistemas digitales dará la oportunidad de pensar el trabajo del personal desde un enfoque renovado y orientado a tareas de mayor valor como el control, la auditoría, la interpretación técnico-administrativa y la atención de calidad.
+Este proceso de modernización requerirá una comunicación clara con las dependencias para acordar e implementar las mejoras de los procedimientos. El objetivo es que el desarrollo de esta propuesta sea una experiencia efectiva tanto para la mejora del servicio como para el crecimiento profesional de los/as trabajadores/as del área.
+
+Se redactarán manuales e instructivos para documentar los nuevos flujos de trabajo y el uso de los sistemas digitales. Además, se generarán espacios para la socialización de las experiencias con otras áreas del CRUB y de la UNCo. 
+
+En conclusión, se propone un enfoque práctico para la Dirección de Administración Académica del CRUB, considerando su condición como figura transitiva dentro de la institución y su potencial para realizar acciones concretas que estructuren la administración académica de manera robusta y fomenten el desarrollo de la mejora continua en el área.
+B.3 FUNDAMENTACIÓN:
+La administración académica del CRUB atraviesa actualmente un proceso de transición caracterizado por tres ejes fundamentales: la reorganización funcional de la institución, la necesidad de ordenar y mejorar integralmente los procedimientos del área y la oportunidad de aprovechar la capacidad del CRUB para desarrollar plataformas informáticas específicas para la Unidad Académica.
+Por un lado, la nueva Estructura Orgánica Funcional de la UNCo aprobada recientemente proyecta un rediseño institucional que incluye, entre otros aspectos, la creación de nuevas direcciones, departamentos y divisiones, así como la eliminación de la figura de la Dirección de Administración Académica. Esta situación coloca a esta Dirección en una posición transitoria, en la que resulta imprescindible ordenar funciones y procedimientos con un horizonte claro, de modo que la transición hacia la nueva estructura sea eficiente y favorable para la calidad del servicio.
+En este contexto, la presente propuesta se orienta a sistematizar la totalidad de los procedimientos de la Administración Académica del CRUB mediante sistemas digitales de trabajo con un alto nivel de automatización. Esta modalidad no sólo mejora la eficiencia interna, sino que, por su diseño modular y documentado, tiene la ventaja de ser fácilmente transferible y adaptable a la futura organización. De este modo, se obtiene un beneficio inmediato en la calidad del servicio, y al mismo tiempo se asegura la posibilidad de redistribuir los procedimientos entre las nuevas direcciones y departamentos que surjan con la aplicación de la nueva estructura orgánico-funcional de la UNCo.
+El desarrollo de tecnologías informáticas y de comunicación ocupa un rol estratégico en los procedimientos institucionales. La Dirección de Tecnologías de la Información UNCo, a través de los sistemas Mocoví, SIU Guaraní, SUDOCU y Ranquel, resuelve el almacenamiento y operación de una parte importante de la información académico-administrativa. Sin embargo, aún existe un conjunto amplio de procesos internos que no han sido modernizados y que se soportan en papel o en archivos .pdf, administrados principalmente por correo electrónico. Estas prácticas presentan limitaciones para gestionar trámites complejos o masivos, son propensas a errores, dificultan el seguimiento y la trazabilidad, y generan problemas de almacenamiento, edición y envío de la documentación.
+A la vez, el CRUB cuenta con las capacidades propias para implementar soluciones informáticas personalizadas, diseñadas a medida de cada procedimiento. Un ejemplo es el sistema Huayca Cátedras, que permite la gestión de Programas, Planificaciones e Informes de Cátedra por parte de Docentes, Departamentos Académicos y la Secretaría Académica. Otro ejemplo es el sistema Huayca Certificaciones, que posibilita al personal administrativo del Departamento de Asuntos Estudiantiles la elaboración rápida de Certificaciones de Programas y Planes de Estudio. Estas experiencias evidencian que la Unidad Académica dispone del personal, los recursos y las herramientas técnicas y administrativas necesarias para llevar adelante un proceso sistemático de digitalización y automatización de procedimientos, incluyendo el expurgo y la digitalización del archivo en papel del área.
+Para sumar al contexto, actualmente la Dirección de Administración Académica del CRUB concentra una serie de tareas operativas relacionadas a procedimientos como: tramitación y gestión de solicitudes de Inicio, Prórroga y Aprobación de Tribunal de Trabajos Finales de Carrera; coordinación y logística de Colaciones de Grado y Posgrado (recepción de información de egresados/as, organización de ceremonias y trámites asociados); aprobación administrativa de solicitudes de cursado de asignaturas optativas en otras instituciones y su posterior reconocimiento; elaboración del Calendario Académico de la Unidad Académica; coordinación con Departamentos/Delegaciones Departamentales para la definición de la oferta anual de asignaturas optativas; gestión administrativa de nuevas optativas; tramitación de las Redesignaciones Docentes anuales; carga de la actividad académica docente en el sistema Mocoví; gestión de avales de interés institucional para cursos, capacitaciones y otras actividades formativas; soporte Técnico-Reglamentario y Asistencia al Consejo Directivo; asesoramiento a la Secretaría Académica en la elaboración de proyectos de reglamentos y resoluciones; asistencia al Consejo Directivo en la elaboración y seguimiento de trámites complejos (modificaciones de planes de estudio, estructuras departamentales, entre otros) y la dirección del Departamento de Informática.
+Esta alta carga operativa refuerza la necesidad de avanzar hacia una administración académica basada en la sistematización, la automatización y la trazabilidad de la información. Al mismo tiempo, la condición transitoria de la Dirección de Administración Académica frente a la nueva estructura orgánico-funcional torna estratégico encarar este proceso ahora, de manera planificada, para evitar que la reorganización futura se produzca sobre procedimientos informales o poco documentados.
+En síntesis, la fundamentación de este plan se sostiene en: la necesidad de ordenar y fortalecer los procedimientos de la Administración Académica del CRUB en un contexto de transición institucional; la oportunidad de aprovechar las capacidades en materia de desarrollo de sistemas informáticos propios; y el objetivo de mejorar la calidad del servicio, garantizando la eficiencia, la transparencia y la mejora continua del trabajo del área, de modo que los procedimientos resulten sostenibles y transferibles a la nueva organización institucional.
+B.4 ALCANCE
+El presente plan de trabajo abarca una primera etapa de transformación de la Administración Académica del CRUB durante el período 2026-2028. Su alcance se centra en el Área de Administración Académica CRUB, donde se intervendrá de manera directa sobre la organización y el funcionamiento de los procedimientos, contemplando al mismo tiempo la articulación con otras áreas cuando los trámites involucran circuitos compartidos.
+En este marco, el plan se orienta a tres ejes:
+Transformación de procedimientos: Rediseño, sistematización y automatización progresiva de los principales trámites académicos gestionados por el área (equivalencias y reválidas, egresos y colaciones, trabajos finales de carrera, administración de programas e informes de cátedra, selecciones docente, gestión de aulas y agenda académica) priorizando los procesos de mayor volumen y criticidad y dejando planificada la siguiente etapa de mejora para 2029-2030.
+Gestión documental y normativa: Digitalización y organización del archivo bajo responsabilidad del área, así como el desarrollo de herramientas que faciliten la consulta de la normativa académica vigente (índice temático y digesto complementario de RANQUEL), con foco en la trazabilidad, el acceso y la transparencia de la información.
+Gestión del cambio y desarrollo del personal: Acompañamiento de la transición mediante instancias de capacitación, redefinición de perfiles y tareas del personal nodocente en función de los procesos automatizados, y elaboración de manuales, instructivos y protocolos de transferencia que aseguren la sostenibilidad y transferibilidad de los nuevos procedimientos y sistemas.
+B.5 OBJETIVOS GENERALES: 
+
+OG1: Transformar la gestión de la administración académica del CRUB mediante la sistematización y la automatización de procedimientos para garantizar la calidad del servicio.
+
+OG2: Garantizar la gestión integral del acervo documental  y normativo del área, facilitando su acceso, la trazabilidad de la información y la transparencia institucional.
+
+OG3: Liderar la gestión del cambio, el desarrollo profesional y la calidad del trabajo del Personal Nodocente, asegurando la sostenibilidad y transferibilidad de los procedimientos y sistemas en el contexto de la reorganización funcional.
+
+B.6 OBJETIVOS ESPECÍFICOS:
+
+OE1: Sistematizar la tramitación de solicitudes de equivalencias y reválidas de título.
+
+OE2: Sistematizar el procedimiento de egresos y colaciones en una plataforma informática que sistematice las convocatorias, la gestión administrativa y la base de datos de estudiantes graduados/as.
+
+OE3: Mejorar y sistematizar el procedimiento de solicitud de Inicio de Trabajo Final de Carrera, sus Prórrogas y Aprobación del Tribunal Evaluador.
+
+OE4: Continuar con la implementación y uso de la interfaz actual para la entrega de programas, planificaciones e informes de cátedra (Huayca Cátedras).
+
+OE5: Integrar la gestión de la agenda de actividades académicas y solicitudes internas en una plataforma única (Lenga).
+
+OE6: Consolidar la implementación de la plataforma de Selecciones Docentes.
+
+OE7: Establecer un mecanismo sistemático para identificar, priorizar y planificar el diseño de mejoras y automatizaciones de otros procedimientos del Área.
+
+OE8: Digitalizar y estructurar el archivo en papel del área.
+
+OE9 Desarrollar un índice temático y un digesto normativo navegable que complemente el repositorio institucional (RANQUEL) facilitando la consulta rápida de la normativa académica clasificada por interés de los usuarios (carreras, tipo de solicitud, etc.).
+
+OE10: Implementar una dinámica de trabajo de mejora continua y capacitación permanente.
+
+OE11: Documentar y socializar los nuevos procedimientos y sistemas digitales, asegurando su transferibilidad ante la eventual aplicación de la nueva estructura orgánico-funcional.
+
+OE12: Redefinir los perfiles y tareas del Personal Nodocente en función de los nuevos procesos automatizados.
+
+B.7 NORMAS:
+
+Reglamento de Administración Académica para Carreras de pregrado y carreras de grado - Ordenanza N° 273/18 y Ord. Mod. N° 634/20 y N° 990/22.
+Reglamento de las Actividades de Postgrado de la UNCo - Ordenanza N° 510/11.
+Reglamento del Sistema Departamental de la Universidad Nacional del Comahue - Ordenanza N° 499/92.
+Reglamento Funcionamiento Coordinador/a de Carrera - Resolución CD CRUB GBA N° 0938/16 
+Reglamento de Trabajo Final de la carrera Licenciatura en Ciencias Biológicas - Resolución CRUB CD GAB N°104/2022.
+Reglamento de Tesis de grado de la Carrera Licenciatura en Enfermería - Resolución CRUB CD GAB N° 020/2022.
+Régimen Reválida Títulos Extranjeros - Ordenanza N° 052/90. 
+Reglamento de Concurso Regular para Docentes - Ordenanza N° 728/24.
+Procedimiento Resumido para la Aplicación de la Ordenanza N° 728/2024 - Disp. Secretaría Académica UNCo N°  001/25
+Reglamento de Llamado a Concurso de Docentes Interinos - Resoluciones CD CRUB N° 1320/22.
+Régimen de Obligaciones Docentes - Ordenanza N° 492/91.
+Sistema Único de Planificación y Evaluación de Actividades Académicas (Docencia) - Ordenanza N° 485/91
+Tabla de Plazos Mínimos de conservación y guarda de documentación y expedientes de la Universidad Nacional del Comahue - Ordenanza N° 363/22
+Procedimiento de digitalización de documentación administrativa - Disp. Secretaría General UNCo N°  007/23
+Misión y Funciones de la Dirección de Administración Académica - Resolución N° 720/00.
+Estructura orgánico-funcional de la Universidad Nacional del Comahue - Ordenanza N° 440/99
+Nueva Estructura orgánico-funcional de la Universidad Nacional del Comahue - Aprobada en el Consejo Superior pendiente de firma.
+Convenio Colectivo de Trabajo para el Sector No Docente de las Instituciones Universitarias Nacionales - Decreto 366/06

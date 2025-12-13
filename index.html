@@ -38,7 +38,7 @@
 
         <div class="title-with-button">
             <h2 style="margin: 0; padding: 0; border: none; font-size: 1.75rem;">B.1 Nombre del Plan de Trabajo</h2>
-            <a href="/propuesta.pdf" class="btn-download" download>📄 Descargar Propuesta completa en PDF</a>
+            <a href="#" class="btn-download" data-pdf-link target="_blank" rel="noopener">📄 Ver Propuesta en texto</a>
         </div>
 
         <div class="content" style="text-align: center;">
@@ -48,19 +48,19 @@
         <section class="overview">
             <h2>B.2 Descripción del Proyecto</h2>
             <div class="content">
-                <p>Este proyecto propone un plan para mejorar y estructurar la Administración Académica del CRUB. Se planifica una metodología de trabajo sistematizada y diseñada para transformar los procedimientos y mejorar la calidad del servicio del área.</p>
+                <p>Este proyecto propone un plan para mejorar y estructurar la Administración Académica del CRUB. En este sentido, se planifica una metodología de trabajo sistematizada y diseñada para transformar los procedimientos del área y mejorar la calidad de su servicio.</p>
                 
                 <p>Durante la implementación de esta propuesta se analizarán y modificarán las formas y técnicas con las que los procedimientos son ejecutados actualmente con el fin de optimizar los flujos de trabajo, eliminar redundancias y reducir los tiempos de respuesta.</p>
 
-                <p>Se implementarán sistemas digitales de trabajo diseñados para gestionar los procedimientos, siempre en sincronía con los sistemas existentes. Esto asegurará la trazabilidad de la información, la automatización de tareas manuales y facilitará el acceso a la información por parte de los diferentes usuarios.</p>
+                <p>Se desarrollarán sistemas digitales de trabajo diseñados para gestionar los procedimientos, siempre en sincronía con los sistemas institucionales existentes. Esto asegurará la trazabilidad de la información, la automatización de tareas manuales y facilitará el acceso a la información por parte de los diferentes usuarios.</p>
 
-                <p>La implementación de diferentes técnicas de automatización permitirá rediseñar la estructura de tareas realizadas por las/os trabajadoras/es. Es decir, la transferencia de operaciones repetitivas y simples a sistemas digitales dará la oportunidad de pensar las tareas del personal desde un enfoque renovado y orientado a tareas de mayor valor como el control, la auditoría, la interpretación técnico-administrativa y la atención de calidad.</p>
+                <p>La implementación de diferentes técnicas de automatización disponibles permitirá rediseñar la estructura de tareas a cargo de las/os trabajadoras/es. Es decir, la transferencia de operaciones repetitivas y simples a sistemas digitales dará la oportunidad de pensar el trabajo del personal desde un enfoque renovado y orientado a tareas de mayor valor como el control, la auditoría, la interpretación técnico-administrativa y la atención de calidad.</p>
 
-                <p>Este proceso de modernización requerirá una comunicación clara hacia las dependencias para acordar e implementar las mejoras de los procedimientos. El objetivo es que la implementación de esta propuesta sea una experiencia efectiva tanto para la mejora del servicio como para el desarrollo profesional de los/as trabajadores/as del área.</p>
+                <p>Este proceso de modernización requerirá una comunicación clara con las dependencias para acordar e implementar las mejoras de los procedimientos. El objetivo es que el desarrollo de esta propuesta sea una experiencia efectiva tanto para la mejora del servicio como para el crecimiento profesional de los/as trabajadores/as del área.</p>
 
                 <p>Se redactarán manuales e instructivos para documentar los nuevos flujos de trabajo y el uso de los sistemas digitales. Además, se generarán espacios para la socialización de las experiencias con otras áreas del CRUB y de la UNCo.</p>
 
-                <p>En conclusión, se propone un enfoque práctico para la Dirección de Administración Académica del CRUB, considerando su condición como figura transitiva dentro de la institución y su capacidad para realizar acciones concretas que estructuren la administración académica de manera robusta y desarrollen la capacidad de mejora continua. en el área.</p>
+                <p>En conclusión, se propone un enfoque práctico para la Dirección de Administración Académica del CRUB, considerando su condición como figura transitiva dentro de la institución y su potencial para realizar acciones concretas que estructuren la administración académica de manera robusta y fomenten el desarrollo de la mejora continua en el área.</p>
             </div>
         </section>
 
@@ -79,5 +79,12 @@
         <p>&copy; 2026 Plan Estratégico Administración Académica CRUB - Universidad Nacional del Comahue</p>
     </footer>
     <script src="menu.js"></script>
+    <script src="config.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const a = document.querySelector('[data-pdf-link]');
+            if (a && window.SITE_CONFIG?.pdfUrl) a.href = window.SITE_CONFIG.pdfUrl;
+        });
+    </script>
 </body>
 </html>
